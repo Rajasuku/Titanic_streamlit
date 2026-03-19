@@ -81,3 +81,4 @@ if st.button("🔮 Predict"):
     with st.expander("🔍 Debug Info"):
         st.write("Model classes:", model.classes_)
         st.write("Probabilities [class-wise]:", class_prob)
+port = int(os.environ.get("PORT", 8501))
